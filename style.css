@@ -1,17 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 body{
+    margin:0;
+    padding:20px;
     background:#f5f1ea;
-    text-align:center;
+    font-family:sans-serif;
 }
-</style>
-</head>
 
-<body>
+.page{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:90vh;
+}
 
-<h1>メッセージページ</h1>
+.photo-frame{
 
-</body>
-</html>
+    background:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.2);
+
+    width:75%;
+    max-width:500px;
+}
+
+.photo-frame img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+button{
+    margin:15px;
+    padding:18px 36px;
+    font-size:22px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
