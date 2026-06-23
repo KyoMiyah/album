@@ -7,42 +7,59 @@
 <body>
 
 <!-- ページ1 -->
-<div id="page1">
-    <h1>なっちゃんへ</h1>
-    <p>いつもありがとう。</p>
+<div id="page1" class="page">
+    <h1>高島さんへ</h1>
+
+    <p>
+        岡山研修から一年が経ちましたね。<br>
+        思い出の写真をアルバムにしてみました。
+    </p>
 
     <button onclick="showPage(2)">
-        次へ
+        アルバムを開く
     </button>
 </div>
 
 <!-- ページ2 -->
-<div id="page2" style="display:none">
-    <img src="images/photo1.jpg" width="500">
+<div id="page2" class="page" style="display:none">
 
-    <br><br>
+    <div class="photo-frame">
+        <img src="images/photo1.jpg">
+    </div>
 
-    <button onclick="showPage(1)">戻る</button>
-    <button onclick="showPage(3)">次へ</button>
+    <div>
+        <button onclick="showPage(1)">戻る</button>
+        <button onclick="showPage(3)">次へ</button>
+    </div>
+
 </div>
 
 <!-- ページ3 -->
-<div id="page3" style="display:none">
-    <img src="images/photo2.jpg" width="500">
+<div id="page3" class="page" style="display:none">
 
-    <br><br>
+    <div class="photo-frame">
+        <img src="images/photo2.jpg">
+    </div>
 
-    <button onclick="showPage(2)">戻る</button>
-    <button onclick="showPage(4)">次へ</button>
+    <div>
+        <button onclick="showPage(1)">戻る</button>
+        <button onclick="showPage(3)">次へ</button>
+    </div>
+
 </div>
 
 <!-- ページ4 -->
-<div id="page4" style="display:none">
-    <img src="images/photo3.jpg" width="500">
+<div id="page4" class="page" style="display:none">
 
-    <br><br>
+    <div class="photo-frame">
+        <img src="images/photo3.jpg">
+    </div>
 
-    <button onclick="showPage(3)">戻る</button>
+    <div>
+        <button onclick="showPage(1)">戻る</button>
+        <button onclick="showPage(3)">次へ</button>
+    </div>
+
 </div>
 
 <script>
