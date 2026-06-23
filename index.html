@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Album</title>
+</head>
 <body>
 
-<h1>メッセージページ</h1>
+<div id="page1">
+    <h1>なっちゃんへ</h1>
+    <p>
+        いつもありがとう。
+    </p>
 
-<button onclick="alert('動いています')">
-次へ
-</button>
+    <button onclick="nextPage()">
+        次へ
+    </button>
+</div>
+
+<div id="page2" style="display:none">
+    <img src="images/photo1.jpg" width="500">
+
+    <br><br>
+
+    <button onclick="prevPage()">
+        戻る
+    </button>
+
+    <button onclick="nextPhoto()">
+        次へ
+    </button>
+</div>
+
+<script>
+function nextPage() {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "block";
+}
+
+function prevPage() {
+    document.getElementById("page1").style.display = "block";
+    document.getElementById("page2").style.display = "none";
+}
+
+function nextPhoto() {
+    alert("写真2ページは次に作ります");
+}
+</script>
 
 </body>
 </html>
