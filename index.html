@@ -8,7 +8,8 @@
 <body>
 
 <!-- ページ1 -->
-<div class="album-page">
+<div id="page1" class="page">
+    <div class="album-page"></div>
     <div class="message-frame">
         <h1>高島さんへ</h1>
         <p>
@@ -24,6 +25,7 @@
     <button onclick="showPage(2)">
         アルバムを開く
     </button>
+    </div>
 
 </div>
 
@@ -32,6 +34,9 @@
 
     <div class="photo-frame">
         <img src="images/photo1.jpg">
+                <p class="caption">
+            パフェ後のラーメン
+        </p>
     </div>
 
     <div>
@@ -46,6 +51,9 @@
 
     <div class="photo-frame">
         <img src="images/photo2.jpg">
+                <p class="caption">
+            岡山後楽園
+        </p>
     </div>
 
     <div>
@@ -60,6 +68,9 @@
 
     <div class="photo-frame">
         <img src="images/photo3.jpg">
+        <p class="caption">
+            倉敷
+        </p>
     </div>
 
     <div>
@@ -69,38 +80,9 @@
 
 </div>
 
-//写真にコメントを付ける
-<div class="photo-frame">
 
-    <img src="images/photo1.jpg">
 
-    <p class="caption">
-        パフェ後のラーメン
-    </p>
 
-</div>
-
-//写真にコメントを付ける
-<div class="photo-frame">
-
-    <img src="images/photo2.jpg">
-
-    <p class="caption">
-        岡山後楽園
-    </p>
-
-</div>
-
-//写真にコメントを付ける
-<div class="photo-frame">
-
-    <img src="images/photo3.jpg">
-
-    <p class="caption">
-        倉敷
-    </p>
-
-</div>
 
 <script>
 
