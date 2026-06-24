@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Album</title>
 </head>
 <body>
 
 <!-- ページ1 -->
-<div id="page1" class="page">
-    <h1>高島さんへ</h1>
+<div class="album-page">
+    <div class="message-frame">
+        <h1>高島さんへ</h1>
+        <p>
+            岡山研修からあっという間に一年ですね。<br><br>
+            とにかく暑かったのと、岡山後楽園の水流が綺麗だったのと、かき氷からの帰り道が楽しすぎたのと、良い思い出です。<br>
+            あと高島さんの自転車のサドルが高すぎたのと、靴紐がほどけてるを指摘されたら嬉しいのと（ito）、吹奏楽部の職業病で椅子に浅めに座るのも覚えてます。<br><br>
+            引き続きLINEさせてください！<br><br>
+            宮平拝
+        </p>
 
-    <p>
-        岡山研修からあっという間に一年ですね。<br>
-        とにかく暑かったのと、岡山後楽園の水流が綺麗だったのと、かき氷からの帰り道が楽しすぎたのと、良い思い出です。<br>
-        あと高島さんの自転車のサドルが高すぎたね。<br><br>
-        引き続きLINEさせてください！<br><br>
-        宮平拝
-    </p>
+    </div>
 
     <button onclick="showPage(2)">
         アルバムを開く
     </button>
+
 </div>
 
 <!-- ページ2 -->
@@ -62,6 +66,39 @@
         <button onclick="showPage(3)">戻る</button>
         <button onclick="showPage(4)">次へ</button>
     </div>
+
+</div>
+
+//写真にコメントを付ける
+<div class="photo-frame">
+
+    <img src="images/photo1.jpg">
+
+    <p class="caption">
+        パフェ後のラーメン
+    </p>
+
+</div>
+
+//写真にコメントを付ける
+<div class="photo-frame">
+
+    <img src="images/photo2.jpg">
+
+    <p class="caption">
+        岡山後楽園
+    </p>
+
+</div>
+
+//写真にコメントを付ける
+<div class="photo-frame">
+
+    <img src="images/photo3.jpg">
+
+    <p class="caption">
+        倉敷
+    </p>
 
 </div>
 

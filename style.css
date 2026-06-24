@@ -1,8 +1,5 @@
 body{
-    margin:0;
-    padding:20px;
-    background:#f5f1ea;
-    font-family:sans-serif;
+    background:#efe7da;
 }
 
 .page{
@@ -17,15 +14,16 @@ body{
 
     background:white;
 
-    padding:15px;
+    padding:25px;
 
-    border-radius:10px;
+    border-radius:15px;
 
     box-shadow:
-        0 5px 15px rgba(0,0,0,0.2);
+        0 8px 20px rgba(0,0,0,0.2);
 
-    width:75%;
-    max-width:500px;
+    width:80%;
+    max-width:700px;
+
 }
 
 .photo-frame img{
@@ -37,10 +35,35 @@ body{
 }
 
 button{
-    margin:15px;
-    padding:18px 36px;
-    font-size:22px;
-    border:none;
-    border-radius:10px;
-    cursor:pointer;
+    background:#8b6b4a;
+    color:white;
+}
+
+.album-page{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.message-frame{
+    background:white;
+    width:80%;
+    max-width:700px;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.2);
+
+    text-align:left;
+
+    line-height:1.8;
+}
+
+.caption{
+    text-align:center;
+    margin-top:15px;
+    font-size:18px;
 }
