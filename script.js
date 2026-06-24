@@ -1,5 +1,3 @@
-const pages = document.querySelectorAll(".page");
-
 let current = 0;
 
 function showPage(index){
