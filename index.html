@@ -9,25 +9,31 @@
 
 <!-- ページ1 -->
 <div id="page1" class="page">
-    <div class="album-page"></div>
+    <div class="album-page">
     <div class="message-frame">
         <h1>高島さんへ</h1>
+    <p class="subtitle">
+        岡山研修の思い出
+    </p>
         <p>
             岡山研修からあっという間に一年ですね。<br><br>
-            とにかく暑かったのと、岡山後楽園の水流が綺麗だったのと、かき氷からの帰り道が楽しすぎたのと、良い思い出です。<br>
+            とにかく暑かったのと、岡山後楽園の水流が綺麗だったのと、かき氷からの帰り道が楽しすぎたのが良い思い出です。<br>
             あと高島さんの自転車のサドルが高すぎたのと、靴紐がほどけてるを指摘されたら嬉しいのと（ito）、吹奏楽部の職業病で椅子に浅めに座るのも覚えてます。<br><br>
             引き続きLINEさせてください！<br><br>
             宮平拝
         </p>
 
+        <p class="page-number">
+            1 / 4
+        </p>
+        </div>
     </div>
 
     <button onclick="showPage(2)">
         アルバムを開く
     </button>
-    </div>
-
 </div>
+
 
 <!-- ページ2 -->
 <div id="page2" class="page" style="display:none">
@@ -36,6 +42,10 @@
         <img src="images/photo1.jpg">
                 <p class="caption">
             パフェ後のラーメン
+        </p>
+
+        <p class="page-number">
+            2 / 4
         </p>
     </div>
 
@@ -54,6 +64,10 @@
                 <p class="caption">
             岡山後楽園
         </p>
+
+        <p class="page-number">
+            3 / 4
+        </p>
     </div>
 
     <div>
@@ -71,11 +85,15 @@
         <p class="caption">
             倉敷
         </p>
+
+        <p class="page-number">
+            4 / 4
+        </p>
     </div>
 
     <div>
         <button onclick="showPage(3)">戻る</button>
-        <button onclick="showPage(4)">次へ</button>
+        <button onclick="showPage(1)">最初へ戻る</button>
     </div>
 
 </div>
